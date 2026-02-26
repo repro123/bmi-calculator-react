@@ -31,4 +31,10 @@
   body {
     @apply font-inter antialiased min-h-dvh text-blue-900 scroll-smooth;
   }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-semibold text-blue-900;
+  }
 }

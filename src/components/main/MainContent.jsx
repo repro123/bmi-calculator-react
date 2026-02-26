@@ -1,6 +1,8 @@
 import { useState } from "react";
 import HeroSection from "@/components/hero-section/HeroSection.jsx";
 import MeaningSection from "@/components/Meaningsection.jsx";
+import ListsSection from "@/components/ListsSection.jsx";
+import LimitationsSection from "@/components/LimitationsSection.jsx";
 
 function Main() {
   const [unit, setUnit] = useState("metric");
@@ -159,6 +161,8 @@ function Main() {
         handleMetricChange={handleMetricChange}
       />
       <MeaningSection BMIRatingValue={BMIRatingValue} />
+      <ListsSection />
+      <LimitationsSection />
     </main>
   );
 }

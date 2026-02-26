@@ -4,14 +4,11 @@ import CurvedLeft from "@/assets/images/pattern-curved-line-left.svg";
 import EatingMan from "@/assets/images/image-man-eating.webp";
 
 export default function MeaningSection({ BMIRatingValue }) {
-  console.log(BMIRatingValue);
-
   const content = BMI_CONTENT.find((item) => item.key === BMIRatingValue);
-  console.log(content);
 
   return (
     <section className="py-12">
-      <Container classNames="grid gap-12 lg:gap-16 md:grid-cols-2 relative">
+      <Container classNames="grid gap-12 lg:gap-16 md:grid-cols-2 relative p-4">
         <div>
           <img
             src={EatingMan}
@@ -22,7 +19,7 @@ export default function MeaningSection({ BMIRatingValue }) {
         </div>
 
         <div className="grid content-center justify-center gap-4">
-          <h2 className="font-semibold text-preset-3 md:text-preset-2 leading-[1.1]">
+          <h2 className="text-preset-3 md:text-preset-2 leading-[1.1]">
             What your BMI result means
           </h2>
           <p>

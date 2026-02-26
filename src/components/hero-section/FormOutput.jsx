@@ -1,7 +1,7 @@
 function FormOutput({ BMI, report }) {
   return (
     <div
-      className={`bg-blue-500 rounded-2xl p-4 grid gap-8 ${!BMI && !report ? "" : "md:flex md:justify-between md:items-center md:pr-8"} md:rounded-l-2xl md:rounded-r-full`}
+      className={`bg-blue-500 rounded-2xl p-4 grid gap-8 ${!BMI && !report ? "" : "md:flex md:justify-between md:items-center md:pr-8"} md:rounded-l-2xl  md:rounded-r-[--spacing(20)]`}
     >
       <p className="text-preset-4 text-white font-semibold">
         {BMI ? (
