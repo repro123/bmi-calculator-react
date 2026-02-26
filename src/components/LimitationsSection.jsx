@@ -35,29 +35,29 @@ function Limitation({ src, title, description, id }) {
   const styles = [
     {
       id: 1,
-      style: "row-start-1 col-start-6 ",
+      style: "lg:row-start-1 lg:col-start-6 ",
     },
     {
       id: 2,
-      style: "row-start-2 col-start-3 ",
+      style: "lg:row-start-2 lg:col-start-3 ",
     },
     {
       id: 3,
-      style: "row-start-2 col-start-7 ",
+      style: "lg:row-start-2 lg:col-start-7 ",
     },
     {
       id: 4,
-      style: "row-start-3 col-start-1 ",
+      style: "lg:row-start-3 lg:col-start-1 ",
     },
     {
       id: 5,
-      style: "row-start-3 col-start-5 ",
+      style: "lg:row-start-3 lg:col-start-5 ",
     },
   ];
 
   return (
     <li
-      className={`shadow-2xl shadow-secondary/70 drop-shadow-2xl rounded-2xl p-4 row-span-1 col-span-4 ${styles.find((item) => item.id === id).style}`}
+      className={`shadow-2xl shadow-secondary/70 drop-shadow-2xl rounded-2xl p-4 lg:row-span-1 lg:col-span-4 ${styles.find((item) => item.id === id).style}`}
     >
       <div className="flex items-center gap-2">
         <img src={src} alt="" />
