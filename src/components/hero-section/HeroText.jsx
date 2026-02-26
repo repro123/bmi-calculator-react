@@ -1,7 +1,7 @@
 function HeroText() {
   return (
     <div className="text-center grid gap-4 lg:text-left">
-      <h1 className="text-preset-2 lg:text-preset-1 font-semibold max-w-[10ch] md:max-w-[15ch] mx-auto leading-[1.1]">
+      <h1 className="text-preset-2 lg:text-preset-1 font-semibold max-w-[10ch] md:max-w-[15ch] mx-auto leading-[1.1] lg:mx-0">
         Body Mass Index Calculator
       </h1>
 

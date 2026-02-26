@@ -14,8 +14,8 @@
   --color-blue-300: #acc1de;
 
   /* linear-gradient */
-  --color-gadient-one: #d6fcfe;
-  --color-gadient-two: #d6e6fe;
+  --color-primary: #d6fcfe;
+  --color-secondary: #d6e6fe;
 
   /* font-size */
   --text-preset-1: 4rem;

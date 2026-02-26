@@ -1,7 +1,5 @@
 import Header from "@/components/header/Header.jsx";
-import HeroSection from "@/components/hero-section/HeroSection.jsx";
-
-import React from "react";
+import Main from "@/components/main/MainContent.jsx";
 
 function App() {
   return (
@@ -9,14 +7,6 @@ function App() {
       <Header />
       <Main />
     </>
-  );
-}
-
-function Main() {
-  return (
-    <main>
-      <HeroSection />
-    </main>
   );
 }
 
